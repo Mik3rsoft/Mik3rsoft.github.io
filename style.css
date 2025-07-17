@@ -24,3 +24,33 @@ a {
     color: var(--linkcolor);
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50;
+    height: 80px;
+}
+
+nav.leftMargin a {
+    color: var(--textcolor);
+    font-size: 23px;
+    font-weight: 600px;
+}
+
+nav.rightMargin a {
+    color: var(--textcolor);
+    margin: 0 10px;
+}
+
+nav.rightMargin a:last-child {
+    color: var(--background-color);
+    background-color: var(--tex-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+nav.right a span {
+    margin-left: 5px;
+}
