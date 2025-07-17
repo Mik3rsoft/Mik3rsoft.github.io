@@ -1,0 +1,26 @@
+:root{
+    --textcolor: #1a1c20;
+    --linkcolor: #4a4a4a;
+    --background-color: #eeeff1
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--linkcolor)
+    text-decoration: none;
+}
